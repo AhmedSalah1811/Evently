@@ -14,25 +14,60 @@ class AppTheme {
       elevation: 0,
     ),
     textTheme: const TextTheme(
-      bodyLarge: TextStyle(color: Colors.black, fontSize: 16,fontWeight: FontWeight.w500),
-      bodyMedium: TextStyle(color: Colors.black, fontSize: 14,fontWeight: FontWeight.w500),
-      bodySmall: TextStyle(color: Colors.black, fontSize: 12,fontWeight: FontWeight.w500),
-      labelLarge: TextStyle(color: Colors.deepPurpleAccent, fontSize: 22,fontWeight: FontWeight.bold),
-      labelMedium: TextStyle(color: Colors.deepPurpleAccent, fontSize: 20,fontWeight: FontWeight.w500),
-      labelSmall: TextStyle(color: Colors.deepPurpleAccent, fontSize: 18,fontWeight: FontWeight.bold),
-
-
-
+      bodyLarge: TextStyle(
+        color: Colors.black,
+        fontSize: 18,
+        fontWeight: FontWeight.w500,
+      ),
+      bodyMedium: TextStyle(
+        color: Colors.black,
+        fontSize: 14,
+        fontWeight: FontWeight.w500,
+      ),
+      bodySmall: TextStyle(
+        color: Colors.black,
+        fontSize: 12,
+        fontWeight: FontWeight.w500,
+      ),
+      labelLarge: TextStyle(
+        color: Colors.deepPurpleAccent,
+        fontSize: 22,
+        fontWeight: FontWeight.bold,
+      ),
+      labelMedium: TextStyle(
+        color: Colors.deepPurpleAccent,
+        fontSize: 20,
+        fontWeight: FontWeight.w500,
+      ),
+      labelSmall: TextStyle(
+        color: Colors.deepPurpleAccent,
+        fontSize: 18,
+        fontWeight: FontWeight.bold,
+      ),
+      titleLarge: TextStyle(
+        color: Colors.deepPurpleAccent,
+        fontSize: 20,
+        fontWeight: FontWeight.bold,
+        decoration: TextDecoration.underline,
+      ),
+      titleMedium: TextStyle(
+        color: Colors.deepPurpleAccent,
+        fontSize: 16,
+        fontWeight: FontWeight.bold,
+      ),
+      titleSmall: TextStyle(
+        color: Colors.deepPurpleAccent,
+        fontSize: 14,
+        fontWeight: FontWeight.bold,
+      ),
     ),
     filledButtonTheme: FilledButtonThemeData(
       style: FilledButton.styleFrom(
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
-        textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-        padding: const EdgeInsets.all(16),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
+        textStyle: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+        padding: const EdgeInsets.all(22),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
     ),
     textButtonTheme: TextButtonThemeData(
@@ -58,22 +93,14 @@ class AppTheme {
         fontWeight: FontWeight.w500,
       ),
 
-
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(16),
-        borderSide: const BorderSide(
-          color: AppColors.gray,
-          width: 1,
-        ),
+        borderSide: const BorderSide(color: AppColors.gray, width: 1),
       ),
-
 
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(16),
-        borderSide: const BorderSide(
-          color: AppColors.purple,
-          width: 1,
-        ),
+        borderSide: const BorderSide(color: AppColors.purple, width: 1),
       ),
 
       disabledBorder: OutlineInputBorder(
@@ -81,12 +108,10 @@ class AppTheme {
         borderSide: const BorderSide(color: AppColors.gray, width: 1),
       ),
 
-
       errorBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(16),
         borderSide: const BorderSide(color: AppColors.red, width: 1),
       ),
-
 
       focusedErrorBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(16),
@@ -94,7 +119,4 @@ class AppTheme {
       ),
     ),
   );
-
-
-
 }

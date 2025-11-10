@@ -4,6 +4,7 @@ class AppAsset{
   static const String Route= 'assets/images/Route.png';
   static const String TopFrame= 'assets/images/top frame.png';
   static const String Creative= 'assets/images/being-creative.png';
+  static const String ForegetPassword= 'assets/images/ForgetPassword.png';
 
 
 
